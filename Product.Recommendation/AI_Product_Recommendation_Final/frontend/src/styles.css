@@ -1,0 +1,14 @@
+
+body{ font-family: Arial, sans-serif; background:#fafafa; color:#222; }
+.container{ max-width:900px; margin:24px auto; padding:12px; background:white; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.06); }
+.searchForm{ display:flex; gap:8px; margin-bottom:12px; }
+.searchForm input{ flex:1; padding:8px; font-size:14px; }
+.searchForm button{ padding:8px 12px; }
+.results{ margin-top:16px; display:flex; flex-direction:column; gap:12px;}
+.card{ display:flex; gap:12px; padding:12px; border:1px solid #eee; align-items:center; }
+.card img{ width:150px; height:100px; object-fit:cover; border-radius:4px; background:#f0f0f0; }
+.info h3{ margin:0 0 6px 0; font-size:18px; }
+.meta{ color:#666; font-size:14px; }
+.score{ margin-top:8px; font-weight:600; }
+.note{ color:#555; font-size:13px; }
+.summary{ margin-top:6px; font-size:14px; color:#333; }
